@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #383f45;
+}
+
+.btn {
+    border-radius: 0;
+    padding: auto 30px;
+}
+
+
+
+/* HEADER */
+.navbar-brand a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    width: 10%;
+    text-align: center;
+}
+
+.navbar-link {
+    text-decoration: none;
+}
+
+
+
+/* PRODUCT */
+.product-list {
+    margin-top: 10px;
+    color: #212529;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    border-radius: 0;
+    padding: 15px;
+    background-color: transparent;
+    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem,1fr));
+    grid-gap: 20px;
+}
+
+#bootstrap-override .card-group {
+    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18rem,1fr));
+    grid-gap: 20px;
+}
+
+#bootstrap-override .card {
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2b3035;;
+    border-radius: 0;
+    padding-top: 15px;
+    background-color: #fff;
+    height: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#bootstrap-override .card-img-top {
+    justify-content: center;
+    width: 40%;
+    height: auto;
+}
+
+#bootstrap-override .card-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#bootstrap-override .card-text {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+
+
+/* ASIDE */
+.home-page {
+    position: relative;
+}
+.converter {
+    background-color: #212529;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.converter .btn {
+    padding: 10px 30px;
+}
+
+#bootstrap-override .dropdown-menu {
+    border-radius: 0;
+    border: none;
+}
+
+.dropdown-item .btn {
+    width: 100%;
+}
+
+.btn-group {
+    width: 60%;
+}
+
+.total h3 {
+    margin: 0;
+}
+
+.total h3 span{
+    text-decoration: underline;
+}
