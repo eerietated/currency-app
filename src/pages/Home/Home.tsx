@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ProductList from '../../components/Product/ProductList'
-import { ButtonGroup, Button, Dropdown } from 'react-bootstrap'
+import { Button, Dropdown } from 'react-bootstrap'
 
 type Props = {
     addTotal: (price: number) => void
